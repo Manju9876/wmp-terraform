@@ -1,8 +1,8 @@
-resource "aws_instance" "web" {
-  ami           = ""
-  instance_type = "t3.micro"
-
-  tags = {
-    Name = "HelloWorld"
-  }
-}
+# resource "aws_instance" "web" {
+#   ami           = ${data.}
+#   instance_type = "t3.micro"
+#
+#   tags = {
+#     Name = "HelloWorld"
+#   }
+# }
