@@ -1,1 +1,3 @@
-variable "tag_name" {}
+variable "component_name" {}
+variable "sg-id" {}
+variable "dev" {}
