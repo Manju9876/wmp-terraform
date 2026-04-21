@@ -6,3 +6,4 @@ resource "aws_instance" "web" {
     Name = var.tag_name
   }
 }
+
