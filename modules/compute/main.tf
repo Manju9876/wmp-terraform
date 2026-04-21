@@ -1,7 +1,7 @@
 resource "aws_instance" "main" {
   ami           = data.aws_ami.ami.image_id
   instance_type = "t3.micro"
-  vpc_security_group_ids = [var.sg-id]
+  vpc_security_group_ids = [var.sg_id]
 
   tags = {
     Name = "${var.component_name}-${var.env}"

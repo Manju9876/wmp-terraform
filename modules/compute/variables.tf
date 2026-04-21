@@ -1,3 +1,3 @@
 variable "component_name" {}
-variable "sg-id" {}
+variable "sg_id" {}
 variable "env" {}
